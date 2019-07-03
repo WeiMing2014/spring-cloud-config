@@ -1,0 +1,12 @@
+from : git-common-v1.0
+zuul:
+  ignoredServices: '*'
+  routes:
+    stock-in:
+      path: /stock-in-order/**
+      serviceId: stock-in-order
+    stock-in-task:
+      path: /stock-in-task/**
+      serviceId: stock-in-task
+  host:
+    connect-timeout-millis: 5000

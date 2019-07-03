@@ -3,7 +3,7 @@ zuul:
   routes:
     stock-in:
       path: /stock-in-order/**
-      serviceId: stock-in-order
+      serviceId: stock-in
     stock-in-task:
       path: /stock-in-task/**
       serviceId: stock-in-task

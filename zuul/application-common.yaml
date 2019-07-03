@@ -1,4 +1,4 @@
-from : git-common-v1.0
+from : git-common-1.0
 zuul:
   ignoredServices: '*'
   routes:

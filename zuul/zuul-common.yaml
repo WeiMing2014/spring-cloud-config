@@ -7,5 +7,8 @@ zuul:
     stock-in-task:
       path: /stock-in-task/**
       serviceId: stock-in-task
+    vue-front:
+      path: /vue-front/**
+      serviceId: vue-front
   host:
     connect-timeout-millis: 5000
